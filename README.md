@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add emailautomationskill
-npx skills add Sequenzy/emailautomationskill --skill emailautomationskill
 ```
 
 Raw skill folder: `skills/emailautomationskill`
