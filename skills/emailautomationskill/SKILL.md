@@ -1,5 +1,5 @@
 ---
-name: email-automation
+name: emailautomationskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on behavioral triggers, lifecycle journeys, and automation governance. Triggers include requests about Trigger inventory, Automation QA, Journey optimization, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 

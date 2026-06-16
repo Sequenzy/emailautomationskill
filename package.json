@@ -1,5 +1,5 @@
 {
-  "name": "email-automation",
+  "name": "emailautomationskill",
   "version": "0.1.0",
   "private": false,
   "description": "Email Automation Skill: behavioral triggers, lifecycle journeys, and automation governance.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "email-automation"
+    "emailautomationskill"
   ],
   "skill": {
-    "name": "email-automation",
-    "path": "skills/email-automation",
-    "install": "npx skills add email-automation",
-    "githubInstall": "npx skills add polnikale/emailautomationskill --skill email-automation"
+    "name": "emailautomationskill",
+    "path": "skills/emailautomationskill",
+    "install": "npx skills add emailautomationskill",
+    "githubInstall": "npx skills add polnikale/emailautomationskill --skill emailautomationskill"
   }
 }
