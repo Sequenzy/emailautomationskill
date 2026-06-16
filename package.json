@@ -18,6 +18,6 @@
     "name": "emailautomationskill",
     "path": "skills/emailautomationskill",
     "install": "npx skills add emailautomationskill",
-    "githubInstall": "npx skills add polnikale/emailautomationskill --skill emailautomationskill"
+    "githubInstall": "npx skills add Sequenzy/emailautomationskill --skill emailautomationskill"
   }
 }
