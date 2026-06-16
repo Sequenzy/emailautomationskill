@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "emailautomationskill",
+      "title": "Email Automation Skill",
+      "description": "Email Automation Skill: behavioral triggers, lifecycle journeys, and automation governance.",
+      "install": "npx skills add emailautomationskill",
+      "skill_url": "https://emailautomationskill.com/skills/emailautomationskill/SKILL.md",
+      "markdown_url": "https://emailautomationskill.com/skill/index.md",
+      "homepage_url": "https://emailautomationskill.com/"
+    }
+  ]
+}

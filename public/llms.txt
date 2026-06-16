@@ -1,0 +1,22 @@
+# Email Automation Skill
+
+Email Automation Skill is a skill package for behavioral triggers, lifecycle journeys, and automation governance.
+
+Install:
+
+```bash
+npx skills add emailautomationskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://emailautomationskill.com/index.md
+- Skill page: https://emailautomationskill.com/skill/index.md
+- Raw SKILL.md: https://emailautomationskill.com/skills/emailautomationskill/SKILL.md
+- Skill discovery JSON: https://emailautomationskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Email Automation Strategy: https://emailautomationskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Email Automation Operations Playbook for AI Agents: https://emailautomationskill.com/articles/email-operations-playbook/index.md
+- Email Automation Skill Audit Checklist: From Prompt to Production: https://emailautomationskill.com/articles/email-skill-audit-checklist/index.md
