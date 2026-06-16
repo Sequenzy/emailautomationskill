@@ -2,9 +2,9 @@
 
 emailautomationskill.com
 
-Email Automation Skill for agents that work on email systems.
+Audit automated journeys before they quietly drift out of control.
 
-A compact skill for behavioral triggers, lifecycle journeys, and automation governance, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A skill for behavioral triggers, lifecycle automation, stale-branch cleanup, and governance routines that keep agents away from unsafe live changes.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for behavioral triggers, lifecycle journeys, and automation gove
 npx skills add emailautomationskill
 ```
 
-Raw skill folder: `skills/emailautomationskill`
+## Operating Data
 
-## Use Cases
+- **18**: automation failure modes
+- **6**: governance checks
+- **1**: explicit launch gate
 
-- **Trigger inventory**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Automation QA**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Journey optimization**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Automation health map
 
-## Guides
+1. Trigger
+2. Eligibility
+3. Delay
+4. Message
+5. Exit
 
-- [How to Build an Agent-Ready Email Automation Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Email Automation Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Email Automation Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Trigger inventory
+
+List every behavior, field, and event that can start or alter a journey.
+
+### Automation QA
+
+Catch loops, stale branches, missing exits, and conflicting messages.
+
+### Journey optimization
+
+Prioritize one measurable improvement instead of rewriting the whole system.
+
+## Operating Proof
+
+- **Best for**: Teams with automations that grew faster than their documentation
+- **Primary artifact**: Journey audit with risks, fixes, and approval gates
+- **Stop condition**: Any production automation edit or subscriber-state mutation
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/emailautomationskill/SKILL.md
+- Articles: /articles/
